@@ -1,4 +1,4 @@
-import { Chakra_Petch, Fredoka } from 'next/font/google';
+import { Chakra_Petch } from 'next/font/google';
 import '@/app/styles/globals.css';
 import Header from '@/app/components/layout/Header';
 import { siteMetadata, siteViewport } from '@/lib/metadata';

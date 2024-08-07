@@ -1,7 +1,7 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/no-unused-vars",
     "prettier"
   ],
   "plugins": ["@typescript-eslint"],
