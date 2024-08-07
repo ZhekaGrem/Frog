@@ -36,9 +36,11 @@ const Header = () => {
         <p className="disclaimer text-sm">$FWOG2024 - All Rights Reserved.</p>
       </div>
       <div className="to_top py-4 text-center">
-        <p className="text-sm">To the top</p>
-        <a id="scroll-top" href="#hero" className="btn mx-auto flex items-center justify-center">
-          <Image src="/assets/arrow-up.svg" alt="up" width={32} height={32} />
+        <a
+          id="scroll-top"
+          href="#hero"
+          className="m-1 flex items-center justify-center rounded-full bg-white">
+          <Image src="/svg/arrow-up.svg" alt="up" width={32} height={32} />
         </a>
       </div>
     </nav>
