@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react';
 import Loading from '@/app/loading';
 
-import InfiniteLogoSlider from '@/app/components/layout/InfiniteLogoSlider'
+import InfiniteLogoSlider from '@/app/components/layout/InfiniteLogoSlider';
 const One = lazy(() => import('@/app/components/section/One'));
 const Two = lazy(() => import('@/app/components/section/Two'));
 const Three = lazy(() => import('@/app/components/section/Three'));
@@ -18,15 +18,15 @@ export default function Home() {
       <Suspense fallback={<Loading />}>
         <One />
       </Suspense>
-      <InfiniteLogoSlider  />
+      <InfiniteLogoSlider />
       <Suspense fallback={<Loading />}>
         <Two />
       </Suspense>
-      <InfiniteLogoSlider  />
+      <InfiniteLogoSlider />
       <Suspense fallback={<Loading />}>
         <Three />
       </Suspense>
-      <InfiniteLogoSlider  />
+      <InfiniteLogoSlider />
       <Suspense fallback={<Loading />}>
         <Four />
       </Suspense>

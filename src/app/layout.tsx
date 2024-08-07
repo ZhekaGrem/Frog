@@ -6,7 +6,7 @@ import { siteMetadata, siteViewport } from '@/lib/metadata';
 // import { GoogleTagManager from '@next/third-parties/google'; if you need npm i @next/third-parties
 // import { GoogleAnalytics } from '@next/third-parties/google'; if you need npm i @next/third-parties
 
-const chakra_petch = Chakra_Petch({ subsets: ['latin-ext'], weight:['400','600','700'] });
+const chakra_petch = Chakra_Petch({ subsets: ['latin-ext'], weight: ['400', '600', '700'] });
 
 export const viewport = siteViewport;
 

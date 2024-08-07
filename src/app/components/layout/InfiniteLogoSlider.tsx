@@ -26,17 +26,17 @@ const InfiniteSlider = () => {
         function clearNextTimeout() {
           clearTimeout(timeout);
         }
-         function nextTimeout() {
-           clearTimeout(timeout);
-           if (mouseOver) return;
-           timeout = setTimeout(() => {
-             if (slider && slider.track && slider.track.details) {
-               slider.moveToIdx(slider.track.details.abs + 1);
-             } else {
-               console.warn('Slider or slider.track.details is not initialized');
-             }
-           }, 1000);
-         }
+        function nextTimeout() {
+          clearTimeout(timeout);
+          if (mouseOver) return;
+          timeout = setTimeout(() => {
+            if (slider && slider.track && slider.track.details) {
+              slider.moveToIdx(slider.track.details.abs + 1);
+            } else {
+              console.warn('Slider or slider.track.details is not initialized');
+            }
+          }, 1000);
+        }
         slider.on('created', () => {
           slider.container.addEventListener('mouseover', () => {
             mouseOver = true;
@@ -57,7 +57,7 @@ const InfiniteSlider = () => {
 
   return (
     <>
-      <section className="img5 relative overflow-hidden border-4 border-solid border-y-black border-x-green-500">
+      <section className="img5 relative overflow-hidden border-4 border-solid border-x-green-500 border-y-black">
         <div ref={sliderRef} className="keen-slider marquee">
           {[...Array(29)].map((_, idx) => (
             <div key={idx} className="slide p-3">
@@ -74,6 +74,6 @@ const InfiniteSlider = () => {
       </section>
     </>
   );
-}
+};
 
 export default InfiniteSlider;

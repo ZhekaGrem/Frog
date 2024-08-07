@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @keyframes marquee {
   0% {
     transform: translateX(0);

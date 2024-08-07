@@ -172,10 +172,9 @@ h2 {
   overflow: hidden;
 }
 .img5 {
-      background-image:linear-gradient(#29b968 82%, #004c21);
+  background-image: linear-gradient(#29b968 82%, #004c21);
 }
 
-
-.second-text{
+.second-text {
   filter: drop-shadow(3px 2px 0 #0000002d);
 }

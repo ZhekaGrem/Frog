@@ -1,5 +1,5 @@
-'use client'
-import Image from "next/image";
+'use client';
+import Image from 'next/image';
 // import { usePortal } from '@/app/context/PortalContext'; exampl how open popUp block
 
 const One = () => {
@@ -8,9 +8,8 @@ const One = () => {
 
   return (
     <section className="img1 min-h-screen">
-      <div className="container mx-auto pt-16 flex justify-center">
+      <div className="container mx-auto flex justify-center pt-16">
         <Image src="/$FLOG.png" alt="Slide image" width={350} height={120} className="object-cover" />
-        
       </div>
     </section>
   );

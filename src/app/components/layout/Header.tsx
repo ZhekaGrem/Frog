@@ -1,9 +1,7 @@
-'use client'
-import Image from "next/image";
+'use client';
+import Image from 'next/image';
 
 const Header = () => {
-  
-
   const data = [
     { id: 3, text: 'Twitter page', src: '/svg/X.svg', link: '' },
     { id: 4, text: 'Telegram account', src: '/svg/telegram.svg', link: '' },
@@ -31,8 +29,9 @@ const Header = () => {
         ))}
       </ul>
       <div className="footer_disclaimer py-4 text-center">
-        <p className="disclaimer text-sm min-w-max">
-          In the ashes a community emerged, a new flog, a more based flog, a FWOG. FWOG has no dev. It is the community.
+        <p className="disclaimer min-w-max text-sm">
+          In the ashes a community emerged, a new flog, a more based flog, a FWOG. FWOG has no dev. It is the
+          community.
         </p>
         <p className="disclaimer text-sm">$FWOG2024 - All Rights Reserved.</p>
       </div>
