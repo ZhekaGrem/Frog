@@ -10,6 +10,7 @@ const One = () => {
     <section className="img1 min-h-screen">
       <div className="container mx-auto pt-16 flex justify-center">
         <Image src="/$FLOG.png" alt="Slide image" width={350} height={120} className="object-cover" />
+        
       </div>
     </section>
   );
