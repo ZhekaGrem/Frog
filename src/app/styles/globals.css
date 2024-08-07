@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: none;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p {
+  max-width: 75ch;
+  text-wrap: pretty;
+  font-weight: 400;
+}
+
+.global {
+  height: 100vh;
+}
+
+:root {
+  --with-block-slider: 100px;
+  --height-block-slider: 50px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 77.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* section {
+  height: 100%;
+  padding-bottom: 20px;
+}
+section:last-child {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+} */
+
+/* h1 {
+  font-weight: 900;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.1334;
+  font-weight: 700;
+  padding: 0 1.5rem;
+} */
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+  h2 {
+    font-size: 3.75rem;
+    line-height: 1.1334;
+    font-weight: 900;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 2.5rem;
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 3.75rem;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.section {
+  min-height: auto;
+  padding: 2rem 0;
+}
+
+.img1 {
+  background-image: url('../assets/bg/1.webp');
+  text-align: center;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 1440 / 816;
+  height: auto;
+  background-position: top left;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.img2 {
+  background-image: url('../assets/bg/2.webp');
+
+  background-position:
+    top left,
+    top left;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  aspect-ratio: 1920 / 373;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-block: min(6.25rem, 20vh);
+}
+.img3 {
+  aspect-ratio: 1440 / 1177;
+  background-image: url('../assets/bg/3-big.png');
+  width: 100%;
+  background-size: cover;
+}
+.img4 {
+  background-image: url('../assets/bg/4.png');
+  aspect-ratio: 1440 / 816;
+  height: auto;
+  background-position: top left;
+  width: 100%;
+  position: relative;
+  background-size: cover, cover;
+  overflow: hidden;
+}
+.img5 {
+      background-image:linear-gradient(#29b968 82%, #004c21);
+}
+
+
+.second-text{
+  filter: drop-shadow(3px 2px 0 #0000002d);
+}

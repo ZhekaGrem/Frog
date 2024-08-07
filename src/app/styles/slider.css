@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  display: flex;
+  min-width: calc(200% + (49 * 0.5rem));
+  animation: marquee 10s linear infinite;
+}
+
+.slide {
+  width: calc(100% / 29);
+  flex-shrink: 0;
+  padding-right: 0.5rem;
+}
