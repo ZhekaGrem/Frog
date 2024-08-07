@@ -13,17 +13,17 @@ const data: DataType[] = [
   {
     id: 1,
     h3: '01. CREATE WALLET',
-    p: 'Download Phantom or your wallet of choice from the app store or Google Play for free. Desktop users, download the Google Chrome extension by going to Phantom.',
+    p: 'Download Phantom or your wallet of choice from the app store or Google Play for free. Desktop users, download the Google Chrome extension by going to Phantom.'
   },
   {
     id: 2,
     h3: '02. GET SOME SOL',
-    p: 'Have SOL in your wallet to switch to $FWOG. If you don’t have any SOL, you can buy directly on Phantom, transfer from another wallet, or buy on another exchange and send it to your wallet.',
+    p: 'Have SOL in your wallet to switch to $FWOG. If you don’t have any SOL, you can buy directly on Phantom, transfer from another wallet, or buy on another exchange and send it to your wallet.'
   },
   {
     id: 3,
     h3: '03. GO TO JUPITER',
-    p: 'Connect to Jupiter. Connect your wallet in chrome. Paste the $FWOG token address, select $FWOG, and confirm. When Phantom prompts you for a wallet signature, sign.',
+    p: 'Connect to Jupiter. Connect your wallet in chrome. Paste the $FWOG token address, select $FWOG, and confirm. When Phantom prompts you for a wallet signature, sign.'
   },
   {
     id: 4,
@@ -44,6 +44,7 @@ const Three = () => {
             <div className="buy_step" key={item.id}>
               <h3 className="mb-1 text-2xl font-bold">{item.h3}</h3>
               <p className="desc font-normal">{item.p}</p>
+              
             </div>
           ))}
           {/* <Image src="/bush.png" alt="Slide image" width={100} height={20} className="object-cover" /> */}
