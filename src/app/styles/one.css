@@ -1,0 +1,19 @@
+.img1 {
+  background-image: url('../assets/bg/1-sm.png');
+  text-align: center;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 1440 / 816;
+  height: 100vh;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .img1 {
+    background-image: url('../assets/bg/1.webp');
+    aspect-ratio: 1440 / 816;
+    height: auto;
+    background-position: top left;
+    background-position: top center;
+  }
+}

@@ -1,0 +1,21 @@
+.img4 {
+  background-image: url('../assets/bg/4-sm.png');
+  aspect-ratio: 375 / 823;
+  height: auto;
+  background-position:
+    top center,
+    top center;
+  width: 100%;
+  position: relative;
+  background-size: cover, cover;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .img4 {
+    background-image: url('../assets/bg/4.png');
+    aspect-ratio: 1440 / 816;
+    height: auto;
+    background-position: top left;
+  }
+}

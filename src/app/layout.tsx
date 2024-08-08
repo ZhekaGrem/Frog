@@ -1,6 +1,6 @@
 import { Chakra_Petch } from 'next/font/google';
 import '@/app/styles/globals.css';
-import Header from '@/app/components/layout/Header';
+import Nav from '@/app/components/layout/Nav';
 import { siteMetadata, siteViewport } from '@/lib/metadata';
 // import { PortalProvider } from '@/app/context/PortalContext'
 // import { GoogleTagManager from '@next/third-parties/google'; if you need npm i @next/third-parties
@@ -25,8 +25,8 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={chakra_petch.className}>
-        <Header />
         <main>{children}</main>
+        <Nav />
         <div id="portal-root" />
         {/* if need PopUp
                  <PortalProvider>

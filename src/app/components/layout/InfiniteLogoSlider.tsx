@@ -28,14 +28,6 @@ const InfiniteSlider = () => {
         }
         function nextTimeout() {
           clearTimeout(timeout);
-          if (mouseOver) return;
-          timeout = setTimeout(() => {
-            if (slider && slider.track && slider.track.details) {
-              slider.moveToIdx(slider.track.details.abs + 1);
-            } else {
-              console.warn('Slider or slider.track.details is not initialized');
-            }
-          }, 1000);
         }
         slider.on('created', () => {
           slider.container.addEventListener('mouseover', () => {

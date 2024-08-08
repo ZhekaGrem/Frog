@@ -1,0 +1,32 @@
+.img2 {
+  background-image: url('../assets/bg/2-sm.png');
+
+  background-position:
+    top left,
+    top left;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  aspect-ratio: 375 / 710;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-block: min(6.25rem, 20vh);
+}
+@media (min-width: 768px) {
+  .img2 {
+    background-image: url('../assets/bg/2.webp');
+
+    background-position:
+      top left,
+      top left;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    aspect-ratio: 1920 / 373;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-block: min(6.25rem, 20vh);
+  }
+}

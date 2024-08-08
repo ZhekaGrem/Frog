@@ -1,6 +1,7 @@
 // import { usePortal } from '@/app/components/layout/PortalContext';
 import { Fredoka } from 'next/font/google';
 const fredoka = Fredoka({ subsets: ['latin-ext'], weight: ['400', '600'] });
+import '@/app/styles/two.css';
 
 const Two = () => {
   return (

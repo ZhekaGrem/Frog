@@ -129,48 +129,6 @@ h2 {
   padding: 2rem 0;
 }
 
-.img1 {
-  background-image: url('../assets/bg/1.webp');
-  text-align: center;
-  background-size: cover;
-  width: 100%;
-  aspect-ratio: 1440 / 816;
-  height: auto;
-  background-position: top left;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-.img2 {
-  background-image: url('../assets/bg/2.webp');
-
-  background-position:
-    top left,
-    top left;
-  background-size: cover, cover;
-  background-repeat: no-repeat, no-repeat;
-  aspect-ratio: 1920 / 373;
-  background-size: cover;
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  padding-block: min(6.25rem, 20vh);
-}
-.img3 {
-  aspect-ratio: 1440 / 1177;
-  background-image: url('../assets/bg/3-big.png');
-  width: 100%;
-  background-size: cover;
-}
-.img4 {
-  background-image: url('../assets/bg/4.png');
-  aspect-ratio: 1440 / 816;
-  height: auto;
-  background-position: top left;
-  width: 100%;
-  position: relative;
-  background-size: cover, cover;
-  overflow: hidden;
-}
 .img5 {
   background-image: linear-gradient(#29b968 82%, #004c21);
 }

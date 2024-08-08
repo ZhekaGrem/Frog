@@ -7,16 +7,12 @@ export const logo = {
   height: 80,
   alt: 'logo',
 };
-//Header
-export const header = {
-  navItems: [
-    { id: 1, text: 'Home', link: '/' },
-    { id: 2, text: 'Company', link: '/' },
-    { id: 3, text: 'Resources', link: '/' },
-    { id: 4, text: 'About', link: '/' },
-    { id: 5, text: 'Contact', link: '/2' },
-  ],
-};
+//Nav
+export const nav = [
+  { id: 3, text: 'Twitter page', src: '/svg/X.svg', link: '' },
+  { id: 2, text: 'Telegram account', src: '/svg/telegram.svg', link: '' },
+  { id: 4, text: 'dexscreener account', src: '/svg/dexscreener.svg', link: '' },
+];
 
 //Footer
 export const footer = {

@@ -1,5 +1,7 @@
 // import { usePortal } from '@/app/components/layout/PortalContext';
 import Image from 'next/image';
+import '@/app/styles/four.css';
+
 const Four = () => {
   return (
     <section className="img4 min-h-screen">

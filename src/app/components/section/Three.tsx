@@ -33,18 +33,27 @@ const data: DataType[] = [
 
 const Three = () => {
   return (
-    <section className="img3 relative min-h-screen">
-      <div className="container mx-auto flex justify-center pt-16">
-        <Image src="/how_to_title.png" alt="Slide image" width={620} height={75} className="object-cover" />
-        <div className="how_to_buy">
-          {data.map((item) => (
-            <div className="buy_step" key={item.id}>
-              <h3 className="mb-1 text-2xl font-bold">{item.h3}</h3>
-              <p className="desc font-normal">{item.p}</p>
-            </div>
-          ))}
-          {/* <Image src="/bush.png" alt="Slide image" width={100} height={20} className="object-cover" /> */}
+    <section className="relative">
+      <div className="img3 flex min-h-screen justify-center">
+        <div className="flex flex-col-reverse items-center pt-16 md:flex-col">
+          <div className="order-last md:order-first">
+            <Image
+              src="/how_to_title.png"
+              alt="Slide image"
+              width={620}
+              height={75}
+              className="object-cover"
+            />
+          </div>
         </div>
+      </div>
+      <div className="how_to_buy">
+        {data.map((item) => (
+          <div className="buy_step" key={item.id}>
+            <h3 className="mb-1 text-2xl font-bold">{item.h3}</h3>
+            <p className="desc font-normal">{item.p}</p>
+          </div>
+        ))}
       </div>
     </section>
   );
