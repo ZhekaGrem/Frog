@@ -29,9 +29,9 @@ const Nav = () => {
   }, []);
   return (
     <nav className="fixed bottom-0 left-0 z-50 flex w-full flex-col border-t-2 border-black bg-opacity-80 backdrop-blur-sm md:flex-row md:justify-between">
-      <ul className="flex w-full justify-center p-2 md:w-max md:justify-start md:p-5">
+      <ul className="flex w-full items-center justify-center p-2 md:w-max md:justify-start md:p-5">
         {data.map((item) => (
-          <li key={item.id} className="m-1 items-center rounded-full bg-white">
+          <li key={item.id} className="m-1 rounded-full bg-white">
             <a
               href="https://dexscreener.com/solana/AB1eu2L1Jr3nfEft85AuD2zGksUbam1Kr8MR3uM2sjwt"
               target="_blank"
@@ -49,13 +49,13 @@ const Nav = () => {
       </ul>
       <div
         id="textNav"
-        className="flex justify-center text-center text-white md:p-3"
+        className="flex items-center justify-center text-center text-white md:p-3"
         style={{ display: 'none' }}>
-        <p className="pd-1 text-base md:max-w-[60vw]">
-          In the ashes a community emerged, a new flog, a more based flog, a FWOG. FWOG has no dev. It is the
-          community.
+        <p className="pd-1 text-lg md:max-w-[60vw]">
+          This token was created with the goal of revolutionizing the world of cryptocurrencies and bringing
+          new breath into it.
         </p>
-        <p className="text-sm">$FWOG2024 - All Rights Reserved.</p>
+        <p className="text-lg">$FEFE 2024 - All Rights Reserved.</p>
       </div>
       <div id="scrollTopButton" className="hidden items-start p-2 md:block md:p-3">
         <div className="m-1 flex items-center justify-center rounded-full bg-white">

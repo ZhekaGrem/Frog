@@ -5,22 +5,22 @@ export const siteViewport: Viewport = {
   initialScale: 1.0,
 };
 export const siteMetadata: Metadata = {
-  title: 'FWOG',
+  title: '$FEFE',
   description:
-    'In the ashes a community emerged, a new flog, a more based flog, a FWOG. FWOG has no dev. It is the community.',
+    '$FEFE was renowned for his charisma and fearlessness, and everyone who dealt with him felt his kindness and caring.',
   keywords: ['', '', '', '', '', ''],
   openGraph: {
-    title: 'FWOG',
+    title: '$FEFE',
     description:
-      'In the ashes a community emerged, a new flog, a more based flog, a FWOG. FWOG has no dev. It is the community.',
+      '$FEFE was renowned for his charisma and fearlessness, and everyone who dealt with him felt his kindness and caring.',
     images: ['https://frog-steel.vercel.app/_next/static/media/1.c855e518.webp'],
 
     type: 'website',
   },
   twitter: {
-    title: 'FWOG',
+    title: '$FEFE',
     description:
-      'In the ashes a community emerged, a new flog, a more based flog, a FWOG. FWOG has no dev. It is the community.',
+      '$FEFE was renowned for his charisma and fearlessness, and everyone who dealt with him felt his kindness and caring.',
     images: ['https://frog-steel.vercel.app/_next/static/media/1.c855e518.webp'],
   },
   robots: 'index, follow',

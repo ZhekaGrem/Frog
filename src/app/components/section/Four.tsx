@@ -6,7 +6,7 @@ const Four = () => {
   return (
     <section className="img4 min-h-screen">
       <div className="container mx-auto flex justify-center pt-16">
-        <Image src="/footer-title.png" alt="Slide image" width={620} height={75} className="object-cover" />
+        <Image src="/fefeMeta.png" alt="Slide image" width={620} height={75} className="object-cover" />
       </div>
     </section>
   );

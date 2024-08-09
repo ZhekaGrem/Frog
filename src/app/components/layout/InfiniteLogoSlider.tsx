@@ -54,7 +54,7 @@ const InfiniteSlider = () => {
           {[...Array(29)].map((_, idx) => (
             <div key={idx} className="slide p-3">
               <Image
-                src="/flog-text.png"
+                src="/fefe-text.png"
                 alt="Slide image"
                 width={100}
                 height={20}
