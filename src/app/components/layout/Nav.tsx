@@ -7,6 +7,7 @@ type NavItemType = {
   id: number;
   text: string;
   src: string;
+  link: string;
 };
 
 const data: NavItemType[] = nav;
@@ -32,10 +33,7 @@ const Nav = () => {
       <ul className="flex w-full items-center justify-center p-2 md:w-max md:justify-start md:p-5">
         {data.map((item) => (
           <li key={item.id} className="m-1 rounded-full bg-white">
-            <a
-              href="https://dexscreener.com/solana/AB1eu2L1Jr3nfEft85AuD2zGksUbam1Kr8MR3uM2sjwt"
-              target="_blank"
-              className="flex items-center justify-center p-2">
+            <a href={item.link} target="_blank" className="flex items-center justify-center p-2">
               <Image
                 width={32}
                 height={32}

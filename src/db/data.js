@@ -9,9 +9,9 @@ export const logo = {
 };
 //Nav
 export const nav = [
-  { id: 3, text: 'Twitter page', src: '/svg/X.svg', link: '' },
-  { id: 2, text: 'Telegram account', src: '/svg/telegram.svg', link: '' },
-  { id: 4, text: 'dexscreener account', src: '/svg/dexscreener.svg', link: '' },
+  { id: 3, text: 'Twitter page', src: '/svg/X.svg', link: 'https://x.com/fefe_ether20' },
+  { id: 2, text: 'Telegram account', src: '/svg/telegram.svg', link: 'https://t.me/+6oEsKlGOJOc5NGU0' },
+  // { id: 4, text: 'dexscreener account', src: '/svg/dexscreener.svg', link: '' },
 ];
 
 //Footer
