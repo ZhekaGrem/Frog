@@ -1,7 +1,8 @@
 'use client';
 import Image from 'next/image';
 import '@/app/styles/one.css';
-// import { usePortal } from '@/app/context/PortalContext'; exampl how open popUp block
+import { motion } from 'framer-motion';
+import { slideDown } from '@/animations/animation';
 
 const One = () => {
   //  const { isPortalOpen, setIsPortalOpen } = usePortal(); exampl how open popUp block
@@ -9,9 +10,13 @@ const One = () => {
 
   return (
     <section id="hero" className="img1 min-h-screen">
-      <div className="container mx-auto flex justify-center pt-16">
+      <motion.div
+        variants={slideDown}
+        initial="hidden"
+        animate="visible"
+        className="container mx-auto flex justify-center pt-16">
         <Image src="/fefe.png" alt="Slide image" width={350} height={120} className="object-cover" />
-      </div>
+      </motion.div>
     </section>
   );
 };

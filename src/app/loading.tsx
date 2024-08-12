@@ -1,7 +1,7 @@
 const Loading = () => {
   return (
     <div aria-label="Loading..." role="status" className="flex items-center justify-center space-x-2">
-      <svg className="h-20 w-20 animate-spin stroke-lime-200" viewBox="0 0 256 256">
+      <svg className="animate-spin h-20 w-20 stroke-lime-200" viewBox="0 0 256 256">
         <line
           x1="128"
           y1="32"
