@@ -17,3 +17,7 @@
     background-position: top center;
   }
 }
+
+.text-shadow {
+  text-shadow: #f000 1px 0 10px;
+}

@@ -3,6 +3,6 @@ export const slideDown = {
   visible: {
     y: 0,
     opacity: 1,
-    transition: { duration: 0.2 },
+    transition: { duration: 0.7 },
   },
 };
