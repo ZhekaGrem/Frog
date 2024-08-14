@@ -8,7 +8,7 @@ import ButtonCopy from '../common/ButtonCopy';
 const One: React.FC = () => {
   //  const { isPortalOpen, setIsPortalOpen } = usePortal(); exampl how open popUp block
   // <button className="bg-slate-300  px-6 "  onClick={() => setIsPortalOpen(true)}>+</button>  exampl how open popUp block
-  const textCopy = '0x683Ab8608d4a650FC7827182B67b61DCccb3CcE6';
+  const textCopy = '0x212A95e3c22b9Cc4c2d575BAFc397cf183E714A4';
   return (
     <section id="hero" className="img1 min-h-screen">
       <div className="pt-14">
