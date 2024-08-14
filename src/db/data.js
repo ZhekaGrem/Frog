@@ -21,7 +21,7 @@ export const nav = [
     id: 5,
     text: 'etherscan',
     src: '/etherscan.png',
-    link: 'https://etherscan.io/address/0x683ab8608d4a650fc7827182b67b61dcccb3cce6',
+    link: 'https://etherscan.io/address/0x212A95e3c22b9Cc4c2d575BAFc397cf183E714A4',
   },
 ];
 
