@@ -40,7 +40,7 @@ const FloatingCircle: React.FC = () => {
         </div>
       )}
       <div
-        className={`fixed left-5 top-5 z-50 h-16 w-32 rounded-2xl border-2 border-solid border-black bg-slate-400 ${isPlaying ? 'animate-custom-ping' : ''}`}
+        className={`fixed left-5 top-5 z-50 h-16 w-32 rounded-2xl bg-slate-400 ${isPlaying ? 'animate-custom-ping' : ''}`}
         onClick={togglePlay}>
         <Image
           src="/fefeinheadphone.png"
