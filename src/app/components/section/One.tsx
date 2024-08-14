@@ -8,19 +8,19 @@ import ButtonCopy from '../common/ButtonCopy';
 const One: React.FC = () => {
   //  const { isPortalOpen, setIsPortalOpen } = usePortal(); exampl how open popUp block
   // <button className="bg-slate-300  px-6 "  onClick={() => setIsPortalOpen(true)}>+</button>  exampl how open popUp block
-  const textCopy = '0x6f5d9662a998cEfaDE4F29129a46d4D15289b093';
+  const textCopy = '0x683Ab8608d4a650FC7827182B67b61DCccb3CcE6';
   return (
-    <section id="hero" className="img1 flex min-h-screen flex-col justify-between">
+    <section id="hero" className="img1 min-h-screen">
+      <div className="pt-14">
+        <ButtonCopy text={textCopy} />
+      </div>
       <motion.div
         variants={slideDown}
         initial="hidden"
         animate="visible"
-        className="container mx-auto flex justify-center pt-16">
+        className="container mx-auto flex justify-center">
         <Image src="/fefe.png" alt="Slide image" width={350} height={120} className="object-cover" />
       </motion.div>
-      <div className="pb-5 md:pb-20">
-        <ButtonCopy text={textCopy} />
-      </div>
     </section>
   );
 };

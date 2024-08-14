@@ -23,7 +23,7 @@ const ButtonCopy: React.FC<CopyButtonProps> = ({ text }) => {
   return (
     <button
       onClick={handleCopy}
-      className="group relative inline-flex items-center rounded-full bg-[#8CF6BF] pb-1 text-sm font-medium text-black shadow-sm transition-all duration-200 ease-in-out hover:outline-none hover:ring-2 hover:ring-offset-2">
+      className="group relative inline-flex items-center rounded-full border-2 border-black bg-[#8CF6BF] pb-1 text-sm font-medium text-black shadow-sm transition-all duration-200 ease-in-out hover:outline-none hover:ring-2 hover:ring-offset-2">
       {copied ? (
         <div className="text-bolt relative z-10 inline-flex h-12 items-center justify-center overflow-hidden rounded-full bg-[#91E3CC] bg-transparent px-6 text-xl font-bold">
           <ClipboardDocumentCheckIcon className="h-4 w-4 sm:h-12 sm:w-10" />

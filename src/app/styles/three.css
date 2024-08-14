@@ -18,15 +18,15 @@
 }
 
 .img3 {
-  background-image: url('../assets/bg/3-sm-1.png');
   width: 100%;
+  background: url('../assets/bg/3-sm-1.png') top left no-repeat;
   background-size: cover;
   aspect-ratio: 375 / 305.86;
 }
 @media (min-width: 768px) {
   .how_to_buy {
     align-items: flex-start;
-    background: url('../assets/bg/bush.png') top left no-repeat;
+    background: url('../assets/bg/bush.png');
     aspect-ratio: 495 / 725;
     max-width: 495px;
     position: absolute;

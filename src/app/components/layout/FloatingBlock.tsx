@@ -29,7 +29,7 @@ const FloatingCircle: React.FC = () => {
   return (
     <div className="relative">
       {isPlaying && (
-        <div className="fixed -top-6 left-16 z-50 h-16 w-16">
+        <div className="fixed bottom-44 left-16 z-50 h-16 w-16">
           <Image
             src="/notesanimation.webp"
             alt="Animated GIF"
@@ -40,7 +40,7 @@ const FloatingCircle: React.FC = () => {
         </div>
       )}
       <div
-        className={`fixed left-5 top-5 z-50 h-16 w-32 rounded-2xl bg-slate-400 ${isPlaying ? 'animate-custom-ping' : ''}`}
+        className={`fixed bottom-32 left-5 z-50 h-16 w-32 rounded-2xl bg-slate-400 ${isPlaying ? 'animate-custom-ping' : ''}`}
         onClick={togglePlay}>
         <Image
           src="/fefeinheadphone.png"
@@ -50,7 +50,7 @@ const FloatingCircle: React.FC = () => {
           className={`max-h-16 w-full rounded-2xl border-2 border-solid border-black object-cover ${isPlaying ? '' : 'opacity-50'}`}
         />
       </div>
-      <div className={`fixed left-16 top-10 z-50 h-8 w-8 rounded-full`} onClick={togglePlay}>
+      <div className={`fixed bottom-36 left-16 z-50 h-8 w-8 rounded-full`} onClick={togglePlay}>
         <PlayIcon className={`${isPlaying ? 'hidden' : ''}`} />
       </div>
       <audio ref={audioRef} loop>

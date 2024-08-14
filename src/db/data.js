@@ -17,12 +17,12 @@ export const nav = [
     src: '/M.png',
     link: 'https://medium.com/@team_fefe_meme',
   },
-  // {
-  //   id: 5,
-  //   text: 'etherscan',
-  //   src: '/etherscan.png',
-  //   link: 'https://medium.com/@team_fefe_meme',
-  // },
+  {
+    id: 5,
+    text: 'etherscan',
+    src: '/etherscan.png',
+    link: 'https://etherscan.io/address/0x683ab8608d4a650fc7827182b67b61dcccb3cce6',
+  },
 ];
 
 //Footer
