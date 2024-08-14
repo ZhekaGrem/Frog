@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { slideDown } from '@/animations/animation';
 import ButtonCopy from '../common/ButtonCopy';
 
-const One = () => {
+const One: React.FC = () => {
   //  const { isPortalOpen, setIsPortalOpen } = usePortal(); exampl how open popUp block
   // <button className="bg-slate-300  px-6 "  onClick={() => setIsPortalOpen(true)}>+</button>  exampl how open popUp block
   const textCopy = '0x6f5d9662a998cEfaDE4F29129a46d4D15289b093';
